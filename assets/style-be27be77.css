@@ -1,14 +1,14 @@
 @font-face{
     font-family:"providence";
-    src: url("./assets/fonts/providence.ttf");
+    src: url("fonts/providence.ttf");
 }
 @font-face{
     font-family:"ageo";
-    src: url("./assets/fonts/ageo.otf");
+    src: url("fonts/ageo.otf");
 }
 @font-face{
     font-family:"renogare";
-    src: url("./assets/fonts/renogare.otf");
+    src: url("fonts/renogare.otf");
 }
 
 html {
