@@ -1,0 +1,51 @@
+@font-face{
+    font-family:"providence";
+    src: url("./assets/fonts/providence.ttf");
+}
+@font-face{
+    font-family:"ageo";
+    src: url("./assets/fonts/ageo.otf");
+}
+@font-face{
+    font-family:"renogare";
+    src: url("./assets/fonts/renogare.otf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #002036;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    position: relative;
+    width: 4px;
+    transition: all .5s ease-in-out;
+}
+body::-webkit-scrollbar-thumb {
+    background: #B85654;
+    border-radius: 4px;
+}
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #B85654;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+    background-color: #B85654;
+}
+
+:host * {
+    box-sizing: border-box;
+}
